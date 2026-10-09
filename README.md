@@ -35,6 +35,6 @@ Notebook ini terbagi menjadi dua bagian utama:
 
 ## Cara Menjalankan
 
-1. Clone repositori ini:
+1. **Clone repositori ini:**
    ```bash
    git clone [https://github.com/ichameisyak-sudo/Web-Scraping.git](https://github.com/ichameisyak-sudo/Web-Scraping.git)
