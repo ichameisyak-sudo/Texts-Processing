@@ -33,4 +33,4 @@ Proyek ini berfokus pada alur pemrosesan data teks secara menyeluruh, mulai dari
 
 1. Clone repositori ini:
    ```bash
-   git clone [https://github.com/ichameisyak-sudo/Web-Scraping.git](https://github.com/ichameisyak-sudo/Web-Scraping.git)
+   git clone [https://github.com/ichameisyak-sudo/Processing-Text.git](https://github.com/ichameisyak-sudo/Processing-Text.git)
