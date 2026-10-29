@@ -8,12 +8,12 @@ Repositori ini berisi notebook Python untuk melakukan pengolahan data berbasis t
 
 Proyek ini berfokus pada alur pemrosesan data teks secara menyeluruh, mulai dari tahap pengambilan data hingga analisis tingkat lanjut:
 
-- **Ekstraksi Data:** Mengambil artikel berita dari Detik.com menggunakan `requests` dan `BeautifulSoup`, serta menarik data JSON publik secara otomatis melalui REST API (Spaceflight News API)[cite: 2].
+- **Ekstraksi Data:** Mengambil artikel berita dari Detik.com menggunakan `requests` dan `BeautifulSoup`, serta menarik data JSON publik secara otomatis melalui REST API (Spaceflight News API).
 - **Pembersihan Data (Text Cleaning):** Menghapus elemen non-isi seperti iklan (*SCROLL TO CONTINUE WITH CONTENT*), video, header lokasi (*Jakarta -*), serta tautan internal (*Baca juga*, *[Gambas:]*).
 - **Preprocessing & Pemodelan NLP:** Melakukan pembersihan teks bahasa Indonesia melalui *case folding*, tokenisasi, *stopword removal*, dan *stemming* (`Sastrawi`), dilanjutkan dengan pembobotan TF-IDF untuk pemodelan analisis sentimen.
 - **Unsupervised Clustering & Validation:** Mengelompokkan teks menggunakan algoritma K-Means berdasarkan matriks TF-IDF, mengevaluasi cluster dengan *Elbow Method* dan *Silhouette Score*.
 - **Topic Modeling & Evaluation:** Mengidentifikasi topik-topik tersembunyi pada teks ringkasan berita menggunakan algoritma *Latent Dirichlet Allocation* (LDA) via Gensim, diukur menggunakan *Coherence Score*, serta divisualisasikan secara interaktif.
-- **Visualisasi:** Menampilkan hasil ekstraksi data ke dalam bentuk `pandas.DataFrame`, visualisasi kata kunci menggunakan grafik *WordCloud*, serta peta topik interaktif menggunakan `pyLDAvis`[cite: 4].
+- **Visualisasi:** Menampilkan hasil ekstraksi data ke dalam bentuk `pandas.DataFrame`, visualisasi kata kunci menggunakan grafik *WordCloud*, serta peta topik interaktif menggunakan `pyLDAvis`.
 
 ---
 
